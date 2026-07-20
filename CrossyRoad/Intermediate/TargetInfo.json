@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CrossyRoad",
+			"Path": "..\\Source\\CrossyRoad.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CrossyRoadEditor",
+			"Path": "..\\Source\\CrossyRoadEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

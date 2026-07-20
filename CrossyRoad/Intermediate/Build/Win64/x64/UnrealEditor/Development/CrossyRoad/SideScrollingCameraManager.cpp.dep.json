@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\utente\\crossyroad\\crossyroad\\source\\crossyroad\\variant_sidescrolling\\sidescrollingcameramanager.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\utente\\crossyroad\\crossyroad\\intermediate\\build\\win64\\x64\\crossyroadeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\utente\\crossyroad\\crossyroad\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\crossyroad\\definitions.crossyroad.h",
+            "c:\\users\\utente\\crossyroad\\crossyroad\\source\\crossyroad\\variant_sidescrolling\\sidescrollingcameramanager.h",
+            "c:\\users\\utente\\crossyroad\\crossyroad\\intermediate\\build\\win64\\unrealeditor\\inc\\crossyroad\\uht\\sidescrollingcameramanager.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

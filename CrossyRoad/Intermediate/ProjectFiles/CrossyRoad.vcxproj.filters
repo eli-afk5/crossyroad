@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\CrossyRoad.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CrossyRoad.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CrossyRoadEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Source\CrossyRoad">
+      <UniqueIdentifier>{15AF440F-2239-3888-9EA5-CFF47EF61038}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CrossyRoad\CrossyRoad.Build.cs">
+      <Filter>Source\CrossyRoad</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CrossyRoad\CrossyRoad.cpp">
+      <Filter>Source\CrossyRoad</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\CrossyRoad.h">
+      <Filter>Source\CrossyRoad</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\CrossyRoadCharacter.cpp">
+      <Filter>Source\CrossyRoad</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\CrossyRoadCharacter.h">
+      <Filter>Source\CrossyRoad</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\CrossyRoadGameMode.cpp">
+      <Filter>Source\CrossyRoad</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\CrossyRoadGameMode.h">
+      <Filter>Source\CrossyRoad</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\CrossyRoadPlayerController.cpp">
+      <Filter>Source\CrossyRoad</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\CrossyRoadPlayerController.h">
+      <Filter>Source\CrossyRoad</Filter>
+    </ClInclude>
+    <Filter Include="Source\CrossyRoad\Variant_Combat">
+      <UniqueIdentifier>{B2532B8A-2FE2-3DBC-9EEE-18A958F3A689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CrossyRoad\Variant_Combat\AI">
+      <UniqueIdentifier>{2CB5CAEF-F263-36E0-A379-1BB290ECF4EA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\CrossyRoad\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\CrossyRoad\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\CrossyRoad\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\CrossyRoad\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\CrossyRoad\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\CrossyRoad\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\CrossyRoad\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\CrossyRoad\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Combat\AI\EnvQueryContext_Danger.cpp">
+      <Filter>Source\CrossyRoad\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Combat\AI\EnvQueryContext_Danger.h">
+      <Filter>Source\CrossyRoad\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\CrossyRoad\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\CrossyRoad\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\CrossyRoad\Variant_Combat\Animation">
+      <UniqueIdentifier>{644C6E87-252E-364E-AB34-D0D170E931F7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\CrossyRoad\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\CrossyRoad\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Combat\Animation\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\CrossyRoad\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Combat\Animation\AnimNotify_CheckCombo.h">
+      <Filter>Source\CrossyRoad\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Combat\Animation\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\CrossyRoad\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Combat\Animation\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\CrossyRoad\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\CrossyRoad\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\CrossyRoad\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\CrossyRoad\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\CrossyRoad\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\CrossyRoad\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\CrossyRoad\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\CrossyRoad\Variant_Combat\Gameplay">
+      <UniqueIdentifier>{DF1AF6C1-DB76-3A39-8028-C2163189499A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Combat\Gameplay\CombatActivationVolume.cpp">
+      <Filter>Source\CrossyRoad\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Combat\Gameplay\CombatActivationVolume.h">
+      <Filter>Source\CrossyRoad\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Combat\Gameplay\CombatCheckpointVolume.cpp">
+      <Filter>Source\CrossyRoad\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Combat\Gameplay\CombatCheckpointVolume.h">
+      <Filter>Source\CrossyRoad\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Combat\Gameplay\CombatDamageableBox.cpp">
+      <Filter>Source\CrossyRoad\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Combat\Gameplay\CombatDamageableBox.h">
+      <Filter>Source\CrossyRoad\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Combat\Gameplay\CombatDummy.cpp">
+      <Filter>Source\CrossyRoad\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Combat\Gameplay\CombatDummy.h">
+      <Filter>Source\CrossyRoad\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Combat\Gameplay\CombatLavaFloor.cpp">
+      <Filter>Source\CrossyRoad\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Combat\Gameplay\CombatLavaFloor.h">
+      <Filter>Source\CrossyRoad\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\CrossyRoad\Variant_Combat\Interfaces">
+      <UniqueIdentifier>{A89732FA-2391-3179-9C6B-170E2E0A1751}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Combat\Interfaces\CombatActivatable.cpp">
+      <Filter>Source\CrossyRoad\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Combat\Interfaces\CombatActivatable.h">
+      <Filter>Source\CrossyRoad\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Combat\Interfaces\CombatAttacker.cpp">
+      <Filter>Source\CrossyRoad\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Combat\Interfaces\CombatAttacker.h">
+      <Filter>Source\CrossyRoad\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Combat\Interfaces\CombatDamageable.cpp">
+      <Filter>Source\CrossyRoad\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Combat\Interfaces\CombatDamageable.h">
+      <Filter>Source\CrossyRoad\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\CrossyRoad\Variant_Combat\UI">
+      <UniqueIdentifier>{A049F283-489B-32C4-BBAD-AF5D309B8212}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Combat\UI\CombatLifeBar.cpp">
+      <Filter>Source\CrossyRoad\Variant_Combat\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Combat\UI\CombatLifeBar.h">
+      <Filter>Source\CrossyRoad\Variant_Combat\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\CrossyRoad\Variant_Platforming">
+      <UniqueIdentifier>{4D69AFE6-638F-30FB-BB83-E6BDE520EB90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CrossyRoad\Variant_Platforming\Animation">
+      <UniqueIdentifier>{CB37E8B1-A839-3666-A304-076343E383EB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Platforming\Animation\AnimNotify_EndDash.cpp">
+      <Filter>Source\CrossyRoad\Variant_Platforming\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Platforming\Animation\AnimNotify_EndDash.h">
+      <Filter>Source\CrossyRoad\Variant_Platforming\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\CrossyRoad\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\CrossyRoad\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\CrossyRoad\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\CrossyRoad\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\CrossyRoad\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\CrossyRoad\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\CrossyRoad\Variant_SideScrolling">
+      <UniqueIdentifier>{221BD120-B057-346E-847E-309285212B48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CrossyRoad\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{48870702-D7D1-39D4-A94A-CBCA52EC6327}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\CrossyRoad\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{6234AAE2-B776-39F3-9A2A-FD21D8DA44FC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\CrossyRoad\Variant_SideScrolling\Interfaces">
+      <UniqueIdentifier>{596AD7BA-49B2-3928-AC90-3E1852D81736}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_SideScrolling\Interfaces\SideScrollingInteractable.cpp">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_SideScrolling\Interfaces\SideScrollingInteractable.h">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\CrossyRoad\Variant_SideScrolling\UI">
+      <UniqueIdentifier>{B615C553-C96C-312D-A37A-8FBEA58637D2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CrossyRoad\Variant_SideScrolling\UI\SideScrollingUI.cpp">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CrossyRoad\Variant_SideScrolling\UI\SideScrollingUI.h">
+      <Filter>Source\CrossyRoad\Variant_SideScrolling\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\utente\\crossyroad\\crossyroad\\source\\crossyroad\\variant_combat\\gameplay\\combatdummy.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\utente\\crossyroad\\crossyroad\\intermediate\\build\\win64\\x64\\crossyroadeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\utente\\crossyroad\\crossyroad\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\crossyroad\\definitions.crossyroad.h",
+            "c:\\users\\utente\\crossyroad\\crossyroad\\source\\crossyroad\\variant_combat\\gameplay\\combatdummy.h",
+            "c:\\users\\utente\\crossyroad\\crossyroad\\source\\crossyroad\\variant_combat\\interfaces\\combatdamageable.h",
+            "c:\\users\\utente\\crossyroad\\crossyroad\\intermediate\\build\\win64\\unrealeditor\\inc\\crossyroad\\uht\\combatdamageable.generated.h",
+            "c:\\users\\utente\\crossyroad\\crossyroad\\intermediate\\build\\win64\\unrealeditor\\inc\\crossyroad\\uht\\combatdummy.generated.h",
+            "c:\\program files\\epic games\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\physicsengine\\physicsconstraintcomponent.h",
+            "c:\\program files\\epic games\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\physicsengine\\constraintinstance.h",
+            "c:\\program files\\epic games\\ue_5.7\\engine\\source\\runtime\\engine\\classes\\physicsengine\\constraintdrives.h",
+            "c:\\program files\\epic games\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\constraintdrives.generated.h",
+            "c:\\program files\\epic games\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\constraintinstance.generated.h",
+            "c:\\program files\\epic games\\ue_5.7\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\physicsconstraintcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
