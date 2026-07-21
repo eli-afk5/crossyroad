@@ -50,6 +50,12 @@ protected:
 	UInputAction* MouseLookAction;
 
 public:
+	
+	//variables
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Movement")
+	float SidewaysMovementStrength;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Movement")
+	float UpwardMovementStrength;
 
 	/** Constructor */
 	ACrossyRoadCharacter();	
