@@ -56,6 +56,8 @@ public:
 	float SidewaysMovementStrength;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Movement")
 	float UpwardMovementStrength;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Score")
+	float Score;
 
 	/** Constructor */
 	ACrossyRoadCharacter();	
@@ -90,6 +92,9 @@ public:
 	/** Handles jump pressed inputs from either controls or UI interfaces */
 	UFUNCTION(BlueprintCallable, Category="Input")
 	virtual void DoJumpEnd();
+	
+	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, Category="Score")
+	void Death();
 
 public:
 
