@@ -25,7 +25,7 @@ protected:
 public:	
 	// *************** COMPONENTS ***************
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category="SETTINGS|Meshes", 
-		meta=(ToolTip="Default static Mesh of the current object; randomized by the spawner."))
+		meta=(ToolTip="Default Static Mesh of the current object; randomized by the spawner."))
 	UStaticMeshComponent* ObjectMesh;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="SETTINGS|Meshes", 
 		meta=(ToolTip="(One of) the alternative Static Meshes for the current object."))
