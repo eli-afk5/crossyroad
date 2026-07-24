@@ -94,7 +94,7 @@ public:
 	virtual void DoJumpEnd();
 	
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, Category="Score")
-	void Death();
+	void Death(AActor* Actor, bool bIsSplatted, FName SocketName);
 
 public:
 
