@@ -24,7 +24,7 @@ protected:
 
 public:	
 	// *************** COMPONENTS ***************
-	UPROPERTY(VisibleAnywhere, Category="SETTINGS|Mesh")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="SETTINGS|Mesh")
 	UStaticMeshComponent* TerrainMesh;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="SETTINGS|Spawner", 
 	meta=(ToolTip="Starting point for the randomized spawn of terrain objects."))
