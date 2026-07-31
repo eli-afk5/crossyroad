@@ -14,7 +14,7 @@ void ACrossyRoadPlayerController::BeginPlay()
 	Super::BeginPlay();
 
 	// only spawn touch controls on local player controllers
-	if (ShouldUseTouchControls() && IsLocalPlayerController())
+	/*if (ShouldUseTouchControls() && IsLocalPlayerController())
 	{
 		// spawn the mobile controls widget
 		MobileControlsWidget = CreateWidget<UUserWidget>(this, MobileControlsWidgetClass);
@@ -30,7 +30,7 @@ void ACrossyRoadPlayerController::BeginPlay()
 
 		}
 
-	}
+	}*/
 }
 
 void ACrossyRoadPlayerController::SetupInputComponent()
